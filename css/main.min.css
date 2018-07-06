@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("../libs/fontawesome/font-awesome.css");
 .s-catalog-title {
   font-family: "MontserattSemiBold", sans-serif;
   font-size: em(24px);
@@ -2868,16 +2869,18 @@ img.mfp-img {
     padding-left: 6px;
     padding-right: 6px; } }
 
-/*;
-@import url("../libs/fontawesome/font-awesome.css") */
 ::-webkit-input-placeholder {
   color: #666; }
+
 ::-moz-placeholder {
   color: #666; }
+
 :-ms-input-placeholder {
   color: #666; }
+
 ::-ms-input-placeholder {
   color: #666; }
+
 ::placeholder {
   color: #666; }
 
@@ -3980,7 +3983,7 @@ footer {
   header .nav-section-top .time-work {
     display: none; }
   .slider-section .prev, .slider-section .next {
-    top: 30% !important; }
+    top: 45% !important; }
     .slider-section .prev .arrow-right img, .slider-section .prev .arrow-left img, .slider-section .next .arrow-right img, .slider-section .next .arrow-left img {
       width: 60%; }
   .s-main {
