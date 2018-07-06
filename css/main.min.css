@@ -3910,6 +3910,8 @@ footer {
 
 /*==========  Desktop First  ==========*/
 @media (max-width: 1199.98px) {
+  header .nav-section-top .title a::after {
+    display: none; }
   header .nav-section-top .title::after {
     right: -10%; }
   .s-sales-background-description p {
@@ -3966,8 +3968,6 @@ footer {
       padding-left: 0; } }
 
 @media (max-width: 767.98px) {
-  header .nav-section-top .title a::after {
-    display: none; }
   .s-catalog .position .flowers-title .h2 {
     font-size: 1em; }
   .s-catalog .position .flowers-btn-order {
